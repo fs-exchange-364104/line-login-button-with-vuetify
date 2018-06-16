@@ -19,7 +19,7 @@ module.exports = merge(baseWebpackConfig, {
   },
   resolve: {
     alias: {
-      'line-login-button': resolve('../src'),
+      'line-login-button-with-vuetify': resolve('../src'),
     },
   },
   performance: {
