@@ -21,7 +21,8 @@ const settings = {
     },
     pStyle: {
       fontSize: '12px',
-      margin: 'auto 32px',
+      lineHeight: '12px',
+      margin: '16px 32px',
     },
   },
   normal: {
@@ -30,8 +31,9 @@ const settings = {
       margin: '5px',
     },
     pStyle: {
-      fontSize: '11px',
-      margin: 'auto 26px',
+      fontSize: '10px',
+      lineHeight: '10px',
+      margin: '13px 26px',
     },
   },
   small: {
@@ -40,8 +42,9 @@ const settings = {
       margin: '4px',
     },
     pStyle: {
-      fontSize: '10px',
-      margin: 'auto 20px',
+      fontSize: '8px',
+      lineHeight: '8px',
+      margin: '10px 20px',
     },
   },
 }
