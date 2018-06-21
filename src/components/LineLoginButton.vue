@@ -78,9 +78,9 @@ export default {
 </script>
 
 <style lang="sass" scoped>
-button.line-login-button
+button.line-login-button.btn.btn--depressed
   display: inline-block
-  background-color: #00c300
+  background-color: #00c300 !important
   padding: 0px
   word-break: keep-all
   border-radius: 5px
@@ -95,24 +95,24 @@ button.line-login-button
     width: 1px
     height: 100%
     margin: 0px !important
-    border-right: 1px solid #00b300
+    border-right: 1px solid #00b300 !important
   p
     font-family: sans-serif
     font-weight: bold
     color: white
     text-transform: none
   &:hover
-    background-color: #00e000
+    background-color: #00e000 !important
     div.vertical-line
-      border-right-color: #00c900
+      border-right-color: #00c900 !important
   &:active
-    background-color: #00b300
+    background-color: #00b300 !important
     div.vertical-line
-      border-right-color: #009800
+      border-right-color: #009800 !important
   &:disabled
-    background-color: #b5b5b5
+    background-color: #b5b5b5 !important
     div.vertical-line
-      border-right-color: #c6c6c6
+      border-right-color: #c6c6c6 !important
 </style>
 
 <style lang="sass">

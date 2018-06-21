@@ -1,5 +1,9 @@
 <template lang="pug">
-  div#app
+  v-app#app(:dark="dark")
+    v-tooltip(top)
+      v-btn(icon slot="activator" @click="dark = !dark")
+        <v-icon>invert_colors</v-icon>
+      <span>invert colors</span>
     v-layout
       v-flex
         div
@@ -38,6 +42,11 @@
 <script>
 export default {
   name: 'App',
+  data () {
+    return {
+      dark: false,
+    }
+  },
 }
 </script>
 
