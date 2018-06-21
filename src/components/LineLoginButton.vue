@@ -4,6 +4,7 @@
     :small="small"
     :disabled="disabled"
     :style="style['buttonStyle']"
+    :ripple="false"
     )
     img(:src="style['imgSrc']")
     div.vertical-line
