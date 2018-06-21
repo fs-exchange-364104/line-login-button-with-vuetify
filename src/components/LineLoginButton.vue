@@ -5,6 +5,7 @@
     :disabled="disabled"
     :style="style['buttonStyle']"
     :ripple="false"
+    depressed
     )
     img(:src="style['imgSrc']")
     div.vertical-line
