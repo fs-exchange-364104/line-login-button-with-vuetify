@@ -78,7 +78,7 @@ export default {
 </script>
 
 <style lang="sass" scoped>
-button.line-login-button.btn.btn--depressed
+button.line-login-button
   display: inline-block
   background-color: #00c300 !important
   padding: 0px
