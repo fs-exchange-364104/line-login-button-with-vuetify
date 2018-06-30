@@ -84,6 +84,7 @@ button.line-login-button.btn.btn--depressed
   padding: 0px
   word-break: keep-all
   border-radius: 5px
+  transition-duration: 0s
   *
     display: inline-block
     vertical-align: middle
