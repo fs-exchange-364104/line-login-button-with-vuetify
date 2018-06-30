@@ -22,6 +22,7 @@ npm run build
 ```js
 import Vue from 'vue'
 import Vuetify from 'vuetify'
+import 'vuetify/dist/vuetify.min.css'
 import LineLoginButton from 'line-login-button-with-vuetify'
 
 Vue.use(Vuetify)
